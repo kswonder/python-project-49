@@ -3,4 +3,13 @@
 
 <a href="https://codeclimate.com/github/kswonder/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/92fbe985c2a07effc397/maintainability" /></a>
 
-brain-even https://asciinema.org/a/mIGt5xWd4csmQGk5NlJGWLjLj
+brain-even
+	https://asciinema.org/a/mIGt5xWd4csmQGk5NlJGWLjLj
+brain-calc
+	https://asciinema.org/a/ICeBemQTHbpMO6sllcAOF7MTq
+brain-gcd
+	https://asciinema.org/a/fONPGd8WD0062BM0EG5b9mEcZ
+brain-progression
+	https://asciinema.org/a/sMKzCIJi7WGfG4U0M6J1HMqSj
+brain-prime
+	https://asciinema.org/a/CK6XRG72YwuDpjT4JTVWXp2gY
