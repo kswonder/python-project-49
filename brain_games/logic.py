@@ -1,12 +1,14 @@
 from brain_games import cli
 import prompt
 
+ROUNDS = 3
+
 
 def launch_game(game):
     name = cli.welcome_user()
     print(game.RULE)
     count = 0
-    while count < 3:
+    while count < ROUNDS:
         question, correct_answer = game.get_correct_answer()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
