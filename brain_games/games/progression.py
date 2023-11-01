@@ -10,7 +10,7 @@ def get_correct_answer():
     step_elem = randint(1, 5)
 
     progression = rand_progression(max_elem, first_elem, step_elem)
-    char = '...'
+    char = '..'
     random_elem = randint(0, 9)
     correct_answer = progression[random_elem]
     progression[random_elem] = char
