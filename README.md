@@ -12,7 +12,7 @@
 	pip 20 or higher  
 	git 2.25 or higher  
 
-### Installation
+### Installation:
 
 	python3 -m pip install --user git+https://github.com/kswonder/python-project-49.git
 
