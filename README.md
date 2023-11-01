@@ -4,7 +4,7 @@
 <a href="https://codeclimate.com/github/kswonder/python-project-49/test_coverage"><img src="https://api.codeclimate.com/v1/badges/92fbe985c2a07effc397/test_coverage" /></a>
 
 
-### Hexlet project: Brain Games(Игры Разума) 
+### Hexlet project: Brain Games(<<Игры Разума>>) 
 
 ### Requirements
 
