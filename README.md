@@ -19,10 +19,15 @@
 ### List of Games:
 
 	brain-games - Greeting(<<Приветствие>>)
+
 	brain-even - Сheck for clarity(<<Проверка на чётность>>)
+
 	brain-calc - Calculation(<Калькулятор>)
+
 	brain-gcd - Finding the Greatest Common Divisor(<НОД>)
+
 	brain-progression - Filling in the missing element of the progression(<Арифметическая прогрессия>)
+
 	brain-prime - Is it a prime number?(<Простое ли число?>)
 	
 ### Demonstration of games:
