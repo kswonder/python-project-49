@@ -6,7 +6,7 @@
 
 ### Hexlet project: Brain Games(<<Игры Разума>>) 
 
-### Requirements
+### Requirements:
 
 	Python 3.11 or higher  
 	pip 20 or higher  
