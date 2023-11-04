@@ -1,11 +1,10 @@
-from brain_games import cli
 import prompt
 
 ROUNDS = 3
 
 
 def launch_game(game):
-    name = cli.welcome_user()
+    name = greeting()
     print(game.RULE)
     count = 0
     while count < ROUNDS:
@@ -23,3 +22,10 @@ def launch_game(game):
             )
             return 0
     print(f'Congratulations, {name}!')
+
+
+def greeting():
+
+    name = prompt.string('Welcome to the Brain Games! \nMay I have your name? ')
+    print(f'Hello, {name}!')
+    return name
