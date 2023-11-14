@@ -3,7 +3,7 @@ import random
 RULE = "Find the greatest common divisor of given numbers."
 
 
-def get_correct_answer():
+def get_correct_args():
     number_1 = random.randrange(0, 31, 2)
     number_2 = random.randrange(30, 101, 10)
     question = f'{number_1} {number_2}'

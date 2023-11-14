@@ -3,7 +3,7 @@ from random import randint
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_correct_answer():
+def get_correct_args():
     x = randint(1, 100)
     correct_answer = is_prime(x)
     if correct_answer:

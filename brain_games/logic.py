@@ -8,7 +8,7 @@ def launch_game(game):
     print(game.RULE)
     count = 0
     while count < ROUNDS:
-        question, correct_answer = game.get_correct_answer()
+        question, correct_answer = game.get_correct_args()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if correct_answer == answer:
@@ -20,7 +20,7 @@ def launch_game(game):
                 f"Correct answer was '{correct_answer}'."
                 f"\nLet's try again, {name}!!!"
             )
-            return 0
+            return 
     print(f'Congratulations, {name}!')
 
 

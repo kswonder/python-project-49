@@ -4,7 +4,7 @@ import operator
 RULE = 'What is the result of the expression?'
 
 
-def get_correct_answer():
+def get_correct_args():
     number_1 = random.randint(1, 25)
     number_2 = random.randint(1, 25)
     operations = ['+', '-', '*']
