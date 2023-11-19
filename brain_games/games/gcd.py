@@ -13,9 +13,4 @@ def get_correct_args():
 
 
 def get_gcd(num_1, num_2):
-    while num_1 != num_2:
-        if num_1 > num_2:
-            num_1 = num_1 - num_2
-        else:
-            num_2 = num_2 - num_1
-    return num_2
+    return num_1 if num_2 == 0 else get_gcd(num_2, num_1%num_2)
